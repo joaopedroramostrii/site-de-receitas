@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #000;
+    color: #Fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: #e59875;
+    padding: 20px 0px 100px;
+}
+
+.receita {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.receita img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: -16px;
+    margin-top: -16px;
+    object-fit: cover;
+}
+
+.receita ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.receita h2 {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.receita li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.receita p {
+    margin: 10px 29px 0;
+    line-height: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+}
